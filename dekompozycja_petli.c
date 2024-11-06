@@ -69,8 +69,8 @@ void* calka_fragment_petli_w(void* arg_wsk){
   int my_stride = l_w;
 
   // dekompozycja blokowa
-  //int my_start = 0;
-  //int my_end = 0;
+  //int my_start = my_id*N/l_w;
+  //int my_end = my_id+1;
   //int my_stride = 0;
 
   // something else ? (dekompozycja blokowo-cykliczna)
